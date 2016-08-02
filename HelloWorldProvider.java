@@ -10,4 +10,8 @@ public class HelloWorldProvider{
   public String getHelloWoldString(){
         return HELLO + WORLD
   }
+  
+  public String getHelloWorldWithExclamationMark(){
+        return HELLO + WORLD + "!";
+  }
 }
