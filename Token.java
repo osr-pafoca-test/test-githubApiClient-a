@@ -1,6 +1,11 @@
 public class Token{
 
-    public void getToken(){
+    public String getToken(){
         return "!"
     }
+	
+    public void newMethod(){
+       	System.out.println(getToken());
+    }
+
 }
